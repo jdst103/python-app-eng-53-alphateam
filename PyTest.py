@@ -4,12 +4,9 @@ import sys
 reqs = subprocess.check_output([sys.executable, '-m', 'pip', 'freeze'])
 installed_packages = [r.decode().split('==')[0] for r in reqs.split()]
 
-try:
-    assert ("atomicwrite" in installed_packages)
-    print("atomicwrites installation test passed..... overall progress 10%")
+assert ("atomicwrite" in installed_packages)
+print("atomicwrites installation test passed..... overall progress 10%")
 
-except AssertionError:
-    print ('atomicwrites installation test Failed')
 
 try:
     assert ("attrs" in installed_packages)
