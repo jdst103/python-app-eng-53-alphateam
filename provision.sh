@@ -37,7 +37,7 @@ python3 -m pip install wcwidth
 python3 -m pip install zipp
 
 # Make Downloads directory
-mkdir /home/vagrant/Downloads
+rm -r /home/vagrant/Downloads; mkdir /home/vagrant/Downloads
 
 # install nodejs
 # sudo apt-get install python-software-properties -y
