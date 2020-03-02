@@ -37,7 +37,7 @@ python3 -m pip install wcwidth
 python3 -m pip install zipp
 
 # Make Downloads directory
-rm -r /home/vagrant/Downloads; mkdir /home/vagrant/Downloads
+rm -r /home/ubuntu/Downloads; mkdir /home/ubuntu/Downloads
 
 sudo apt install openjdk-8-jdk openjdk-8-jre -y
 # install nodejs
