@@ -89,3 +89,6 @@ try:
 except AssertionError:
     print ('py installation test Failed\n\n')
     Fail_Program()
+
+
+# Two errors print when tests fail, this is expected.
